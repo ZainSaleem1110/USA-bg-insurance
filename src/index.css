@@ -1,0 +1,94 @@
+.Category-btn{
+    border: 2px solid #0f4295;
+    color: #0f4295;
+    font-weight: 700;
+    width: 200px;
+    height: 55px;
+    background: transparent;
+}
+.Category-btn:hover{
+    background-color: #0f4295;
+    color: white;
+}
+.card{
+    box-shadow: none;
+}
+.services{ 
+    width: 100%;
+    background: url('./images/bg-image.jpg') no-repeat center/cover;
+}
+.teamCard:hover .teamDetail{
+    opacity: .7;
+}
+.teamDetail{
+    background: #000;
+    opacity: 0;
+}
+.activeBar{
+    width: 0%;
+    height: 3px;
+    background: #1a237e;
+}
+.activeBarHome{
+    width: 70%;
+    height: 3px;
+    background: #1a237e;
+}
+.navbarLinks:hover .activeBar{
+    width: 70%;
+    height: 3px;
+    transition: 1s;
+    background: #1a237e;
+}
+.teamTitle{
+    color: white;
+}
+.testimonial{ 
+    width: 100%;
+    background: url('./images/clients-testimonials.jpg') no-repeat center/cover;
+}
+.insuranceForm{
+    width: 100%;
+    background: url('./images/formbg.jpg') no-repeat center/cover;
+}
+.footer{
+    width: 100%;
+    background: #1a237e;
+}
+.footerLinks{
+    color: white;
+}
+.footerLinks:hover{
+    color: #060c3b;
+}
+.btn{
+    background: #0f4295;
+    color: white;
+    font-weight: 700;
+}
+.btn:hover{
+    border: 2px solid #0f4295;
+    color: #0f4295;
+    background: transparent;
+}
+.aparcha{
+    height: 78px;
+}
+.captchaInp{
+    width: 25px;
+    height: 25px;
+}
+.MDBNavbarLink:active{
+    color:#0f4295 ;
+}
+.non-active{
+    color:lightgray;
+    cursor: pointer;
+}
+.actives{
+    color:#0f4295 ;
+}
+.hide{
+    visibility: hidden;
+    height: 0px;
+}
